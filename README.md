@@ -2,9 +2,9 @@
 
 This uses the following tools:
 
-    - [React](https://react.dev/)
-    - [Storybook](https://storybook.js.org/)
-    - [Bootstrap](https://getbootstrap.com/)
+-[React](https://react.dev/)
+-[Storybook](https://storybook.js.org/)
+-[Bootstrap](https://getbootstrap.com/)
 
 ## Available Scripts
 
