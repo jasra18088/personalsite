@@ -1,22 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import ProjectBox from './components/ProjectBox';
+import ProjectBoxContainer from './components/ProjectBoxContainer';
+import testImage from './logo.svg'
 
 function App() {
+
+  const projectList = [
+    { id: '1', title: 'Project 1', image: testImage },
+    { id: '2', title: 'Project 2', image: testImage },
+    { id: '3', title: 'Project 3', image: testImage },
+    { id: '4', title: 'Project 4', image: testImage },
+  ]
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <ProjectBoxContainer projects={projectList} />
       </header>
     </div>
   );

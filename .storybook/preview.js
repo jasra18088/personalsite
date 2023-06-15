@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.css';
+
 /** @type { import('@storybook/react').Preview } */
 const preview = {
   parameters: {
